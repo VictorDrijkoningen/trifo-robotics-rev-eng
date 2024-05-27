@@ -17,7 +17,9 @@ sock = context.socket(zmq.REQ)
 sock.connect("tcp://"+env['ROBOTIP']+":"+env['PORT'])
 
 
-sock.send(b"a")
+# interesting finds:
+# b'\r' returns more gibberish than the other single bytes sent
+sock.send(b'help\r')
 
 message = sock.recv()
 print(message)
