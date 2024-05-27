@@ -16,5 +16,5 @@ The EMMC chip could be desoldered and read. This could give a readable filesyste
 ### SSH server
 Somehow finding a shell through the publickey login? 
 
-### The other two unknown open ports
-TODO: port detecting to see what services are answering on these ports
+### ZEROMQ ZMTP
+There seems to be some form of an MQTT server running. I am unfamiliar with ZeroMQ ZMTP.
