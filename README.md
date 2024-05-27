@@ -11,10 +11,10 @@ The main goal of this repo is to restore the functionality the app had in some w
 # Ways of achieving goals:
 
 ### Flash dumping
-The EMMC chip could be desoldered and read. This could give a readable filesystem where more information could be extracted.
+The EMMC chip could be desoldered and read. This could give a readable filesystem where more information could be extracted. Atm this seems the most fruitful.
 
 ### SSH server
 Somehow finding a shell through the publickey login? 
 
 ### ZEROMQ ZMTP
-There seems to be some form of an MQTT server running. I am unfamiliar with ZeroMQ ZMTP.
+There seems to be some form of an MQTT server running. I am unfamiliar with ZeroMQ ZMTP. Atm i have an client which returns some gibberish i dont understand.
