@@ -16,4 +16,5 @@ Reveals very interesting results:
 7777/tcp open  zmtp    ZeroMQ ZMTP 2.0
 ```
 
+Wireshark revealed rtsp on port 8554
 
