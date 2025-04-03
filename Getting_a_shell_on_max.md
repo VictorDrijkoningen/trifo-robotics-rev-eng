@@ -1,8 +1,10 @@
-# Getting a shell on the Trifo Max (do this on your own risk!)
+# Getting a shell on the Trifo Max (do this on your own risk!) (work needed!)
 
-- Connect to the CPU UART pins on the board. (baudrate 1500000 or 115200)
+- Follow the disassembly guide
 
-- Check output is good
+- Connect to the CPU UART pins on the board (marked in picture). (baudrate 1500000 or 115200)
+
+- Check output is good. You should see a whole lot of debug text
 
 - Create an !RSA! ssh key.
 
